@@ -1,0 +1,31 @@
+{
+  "name": "matheusnaldi.com",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusNaldi/matheusnaldi.git"
+  },
+  "author": "Matheus Naldi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MatheusNaldi/matheusnaldi/issues"
+  },
+  "homepage": "https://github.com/MatheusNaldi/matheusnaldi#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}
