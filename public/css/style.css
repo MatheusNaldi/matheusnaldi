@@ -6661,3 +6661,34 @@ button.close {
   height: 2px;
 }
 
+html,
+body {
+  font-family: 'sans-serif';
+}
+h1 {
+  line-height: 1.8em;
+}
+#main {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 350px;
+  background-color: #2A3A3F;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#main:before,
+#main:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#main-container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
