@@ -9,7 +9,7 @@
 </head>
 <body>
   <section id="main">
-    <div id="main-container">
+    <div class="container">
       <h1>
         Hi, I'm Matheus Naldi And I use
         <br>
@@ -17,7 +17,16 @@
       </h1>
     </div>
   </section>
-  <section id="about">Segunda parte</section>
+  <section id="about">
+    <div class="container">
+      Segunda parte
+    </div>
+  </section>
+  <section id="contact-me">
+    <div class="container">
+      Contato
+    </div>
+  </section>
   <script src="<?php echo './js/app.min.js?v=' . filemtime('./js/app.min.js') ?>"></script>
 </body>
 </html>
