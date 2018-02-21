@@ -22,9 +22,32 @@
       Segunda parte
     </div>
   </section>
+  <section id="work">
+    <div class="container">
+      Work
+    </div>
+  </section>
   <section id="contact-me">
     <div class="container">
       Contato
+      <div class="social-links" target="_blank">
+        <a href="https://www.linkedin.com/in/matheus-silva-naldi-a713b712b/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/MatheusNaldi" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://facebook.com/MatheusNaldi" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/MatheusNaldi" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="mailto:contato@matheusnaldi.com" target="_blank">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+      <span class="footer">Matheus Naldi © <?php echo date('Y'); ?></span>
     </div>
   </section>
   <script src="<?php echo './js/app.min.js?v=' . filemtime('./js/app.min.js') ?>"></script>

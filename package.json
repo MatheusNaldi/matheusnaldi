@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MatheusNaldi/matheusnaldi#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
+    "font-awesome": "^4.7.0",
     "pace-progress": "^1.0.2"
   },
   "devDependencies": {

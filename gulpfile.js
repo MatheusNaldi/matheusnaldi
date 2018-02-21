@@ -65,6 +65,11 @@ gulp.task('lint', function () {
     .pipe($.eslint.format());
 });
 
+gulp.task('fonts', function() {
+  return gulp.src('node_modules/font-awesome/fonts/*')
+    .pipe(gulp.dest('public/fonts'));
+});
+
 gulp.task('watch', ['css', 'browserify'], function () {
   gulp.watch('src/less/**/*.less', ['css']);
   gulp.watch('src/js/**/*.js', ['browserify']);

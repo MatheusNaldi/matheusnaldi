@@ -1,3 +1,32 @@
+@contactColor: #383732;
+
 #contact-me {
-  background-color: #3498db;
+  color: lighten(@contactColor, 30%);
+  height: 40vh;
+  background-color: @contactColor;
+  //background-color: #3498db;
+
+  .social-links {
+    margin-top: 10px;
+    a {
+      border-radius: 50px;
+      background-color: darken(@contactColor, 10%);
+      color: lighten(@contactColor, 30%);
+      width: 36px;
+      height: 36px;
+      display: inline-block;
+      margin: 0 2px;
+      font-size: 1.2em;
+      i {
+        position: relative;
+        top: 45%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .footer {
+    display: inline-block;
+    margin-top: 10px;
+  }
 }
